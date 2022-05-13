@@ -1,0 +1,842 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649611190274' stop='1649611305115'>
+    <name>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+    <title>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+    <test-cases>
+        <test-case start='1649611196224' status='passed' stop='1649611203124'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611196225' status='passed' stop='1649611196225'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611203124' status='passed' stop='1649611203124'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1fd74f73-aa71-4738-9d51-67b23581f776-attachment.png' type='image/png' size='274463'/>
+                <attachment title='Screenshot' source='812aa582-145a-4f48-ab5a-f50e646b3713-attachment.png' type='image/png' size='154759'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611203124' status='passed' stop='1649611215364'>
+            <name>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</name>
+            <title>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611203126' status='passed' stop='1649611203126'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611215365' status='passed' stop='1649611215365'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='cbddc36b-4544-455d-a80d-06fac748590c-attachment.png' type='image/png' size='165641'/>
+                <attachment title='Screenshot' source='739738cd-030d-4995-b2a6-1ddbee0fbe31-attachment.png' type='image/png' size='412038'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611215365' status='passed' stop='1649611216786'>
+            <name>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</name>
+            <title>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611215365' status='passed' stop='1649611215365'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611216786' status='passed' stop='1649611216787'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='efe23df2-bdaf-4ddf-aec1-6eb135343daf-attachment.png' type='image/png' size='412033'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611216787' status='passed' stop='1649611223792'>
+            <name>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</name>
+            <title>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611216787' status='passed' stop='1649611216787'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611223792' status='passed' stop='1649611223793'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='615cbaad-3200-4aeb-bef8-6d5b9edfe3f9-attachment.png' type='image/png' size='412033'/>
+                <attachment title='Screenshot' source='29a12393-3459-4084-bf7b-695ec127d117-attachment.png' type='image/png' size='898247'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611223793' status='passed' stop='1649611225558'>
+            <name>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611223793' status='passed' stop='1649611223793'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611225559' status='passed' stop='1649611225559'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4ce80bee-ec67-41d4-a159-218bbc112df8-attachment.png' type='image/png' size='298520'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611225559' status='passed' stop='1649611226878'>
+            <name>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611225559' status='passed' stop='1649611225559'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611226878' status='passed' stop='1649611226879'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='40dba26d-b5f7-4c49-be8e-ef38e766d3bc-attachment.png' type='image/png' size='306162'/>
+                <attachment title='Screenshot' source='4b4bd1a5-0ff4-4315-a3c9-353ebcf23bd7-attachment.png' type='image/png' size='305882'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611226879' status='passed' stop='1649611229942'>
+            <name>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611226879' status='passed' stop='1649611226879'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611229942' status='passed' stop='1649611229942'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='02f215e1-f861-483c-8ba2-12fcf9d1c4ae-attachment.png' type='image/png' size='305882'/>
+                <attachment title='Screenshot' source='dbf5d7b8-76ee-4777-a10e-1179892ba6a1-attachment.png' type='image/png' size='293703'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611229942' status='passed' stop='1649611232108'>
+            <name>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</name>
+            <title>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611229943' status='passed' stop='1649611229943'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611232108' status='passed' stop='1649611232109'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='874da93a-fdc9-40d3-a1eb-19ffd772ef72-attachment.png' type='image/png' size='293703'/>
+                <attachment title='Screenshot' source='222dd2e2-fec7-4eea-aef0-2aedfd441d72-attachment.png' type='image/png' size='350794'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611232109' status='passed' stop='1649611234269'>
+            <name>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</name>
+            <title>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611232109' status='passed' stop='1649611232109'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611234269' status='passed' stop='1649611234269'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c3881b30-9909-4c97-87f8-a1ed60fcd7af-attachment.png' type='image/png' size='385256'/>
+                <attachment title='Screenshot' source='c879f694-aa23-48fc-9330-621ab600f36c-attachment.png' type='image/png' size='406409'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611234269' status='passed' stop='1649611236336'>
+            <name>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</name>
+            <title>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611234270' status='passed' stop='1649611234270'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611236336' status='passed' stop='1649611236337'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c145fc27-fdcf-43a3-a60e-0ace4beb1ec4-attachment.png' type='image/png' size='337579'/>
+                <attachment title='Screenshot' source='03efd727-aed6-4ddb-9dde-f5504aec4854-attachment.png' type='image/png' size='266013'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611236337' status='passed' stop='1649611237580'>
+            <name>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</name>
+            <title>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611236337' status='passed' stop='1649611236337'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611237580' status='passed' stop='1649611237580'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c3ac7016-57a4-4d41-9fbf-04b76692186c-attachment.png' type='image/png' size='278419'/>
+                <attachment title='Screenshot' source='ee94112d-2038-4453-a1ea-adad1f0b2be2-attachment.png' type='image/png' size='26555'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611237581' status='passed' stop='1649611243041'>
+            <name>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</name>
+            <title>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611237581' status='passed' stop='1649611237581'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611243042' status='passed' stop='1649611243042'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='cee23519-15ab-4f29-918e-c08acfd35659-attachment.png' type='image/png' size='972961'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611243042' status='passed' stop='1649611243972'>
+            <name>ENG_PLAY_TC_18 Validate that Finish button is displayed for activity where both Contributes to Completion and Contributes to Score flag are false - ()</name>
+            <title>ENG_PLAY_TC_18 Validate that Finish button is displayed for activity where both Contributes to Completion and Contributes to Score flag are false - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611243042' status='passed' stop='1649611243042'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611243972' status='passed' stop='1649611243973'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b532d130-228b-4091-bcf3-b750910bef2b-attachment.png' type='image/png' size='972961'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611243973' status='passed' stop='1649611244758'>
+            <name>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</name>
+            <title>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611243973' status='passed' stop='1649611243973'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611244758' status='passed' stop='1649611244758'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d972f1cb-ea41-4d4a-8046-b8b572955bf7-attachment.png' type='image/png' size='972961'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611244758' status='passed' stop='1649611247485'>
+            <name>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611244759' status='passed' stop='1649611244759'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611247485' status='passed' stop='1649611247486'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='52b7a55c-fa3b-42de-b586-088b9c1c648e-attachment.png' type='image/png' size='1217411'/>
+                <attachment title='Screenshot' source='5bc73420-1d0f-4f6f-92a3-bff66dad3c69-attachment.png' type='image/png' size='1070285'/>
+                <attachment title='Screenshot' source='fa508e3e-6481-45cc-90a4-6ca63f5b0510-attachment.png' type='image/png' size='1071841'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611247486' status='passed' stop='1649611249216'>
+            <name>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</name>
+            <title>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611247486' status='passed' stop='1649611247486'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611249216' status='passed' stop='1649611249217'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fcf807c1-f77e-4e07-916d-969ac1c858ad-attachment.png' type='image/png' size='1071841'/>
+                <attachment title='Screenshot' source='02746ecb-c504-4838-819d-60a8799b701a-attachment.png' type='image/png' size='1037305'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611249217' status='passed' stop='1649611250331'>
+            <name>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611249217' status='passed' stop='1649611249217'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611250331' status='passed' stop='1649611250331'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4ff7fd7a-d713-4de7-bcdb-49284590d717-attachment.png' type='image/png' size='1037305'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611250331' status='passed' stop='1649611253358'>
+            <name>ENG_PLAY_TC_9 Validate testplayer when user click on Submit button - (P1)</name>
+            <title>ENG_PLAY_TC_9 Validate testplayer when user click on Submit button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611250331' status='passed' stop='1649611250331'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611253359' status='passed' stop='1649611253359'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='66a8bc8a-7c66-414c-9f5d-6cacf2d77849-attachment.png' type='image/png' size='1037305'/>
+                <attachment title='Screenshot' source='8942850c-66e8-414c-90e0-bc177df8628a-attachment.png' type='image/png' size='1045453'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611253359' status='passed' stop='1649611254560'>
+            <name>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</name>
+            <title>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611253359' status='passed' stop='1649611253359'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611254560' status='passed' stop='1649611254560'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ca7e21b4-f53f-4378-9540-3591df468dab-attachment.png' type='image/png' size='1045453'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611254561' status='passed' stop='1649611258614'>
+            <name>ENG_PLAY_TC_7 Validate testplayer when user click on Restart button - (P1)</name>
+            <title>ENG_PLAY_TC_7 Validate testplayer when user click on Restart button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611254561' status='passed' stop='1649611254561'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611258614' status='passed' stop='1649611258614'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fc28ca27-b243-4f5e-84bf-d0caf07a2aaa-attachment.png' type='image/png' size='1037226'/>
+                <attachment title='Screenshot' source='f39b220e-fc63-4359-8f37-352a8e08a520-attachment.png' type='image/png' size='973129'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611258614' status='passed' stop='1649611260192'>
+            <name>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</name>
+            <title>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611258615' status='passed' stop='1649611258615'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611260192' status='passed' stop='1649611260193'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c87fa0b3-9cfc-4a75-a52a-8a2528e6e5b5-attachment.png' type='image/png' size='973129'/>
+                <attachment title='Screenshot' source='40b70c0f-352f-4a0d-99e7-3a6ca3ca1d0d-attachment.png' type='image/png' size='196252'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611260193' status='passed' stop='1649611262168'>
+            <name>ENG_BOOK_TC_26 Validate that clicking on Previous Unit button launches the Previous unit of Current Component - (P1)</name>
+            <title>ENG_BOOK_TC_26 Validate that clicking on Previous Unit button launches the Previous unit of Current Component - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611260193' status='passed' stop='1649611260193'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611262168' status='passed' stop='1649611262169'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8ea1b6e1-6ed5-4084-84ee-b639a5a28053-attachment.png' type='image/png' size='278665'/>
+                <attachment title='Screenshot' source='a6adf72a-5014-4103-82cf-9945d227de4c-attachment.png' type='image/png' size='284257'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611262169' status='passed' stop='1649611263491'>
+            <name>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</name>
+            <title>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611262169' status='passed' stop='1649611262169'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611263491' status='passed' stop='1649611263491'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='59beea39-136b-46e9-b353-5135bbf772a9-attachment.png' type='image/png' size='284257'/>
+                <attachment title='Screenshot' source='e7a68d9d-cb01-4b2e-9a84-52932cce66c9-attachment.png' type='image/png' size='399418'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611263491' status='passed' stop='1649611264922'>
+            <name>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611263492' status='passed' stop='1649611263492'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611264922' status='passed' stop='1649611264922'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='403db49e-ab13-481c-adf2-bbf554186954-attachment.png' type='image/png' size='398261'/>
+                <attachment title='Screenshot' source='b6bed7b9-3f12-4330-a3b6-e756b0c36859-attachment.png' type='image/png' size='343127'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611264922' status='passed' stop='1649611266268'>
+            <name>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</name>
+            <title>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611264923' status='passed' stop='1649611264923'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611266268' status='passed' stop='1649611266268'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5c1fcc56-6e9a-4393-85f3-cf7a77e8b211-attachment.png' type='image/png' size='316415'/>
+                <attachment title='Screenshot' source='8fa3b5c4-a5d2-4100-b433-33b967b8ad18-attachment.png' type='image/png' size='350300'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611266268' status='passed' stop='1649611267576'>
+            <name>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</name>
+            <title>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611266268' status='passed' stop='1649611266268'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611267576' status='passed' stop='1649611267577'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e8ab4ed8-0999-4b31-8059-8c0beee40e67-attachment.png' type='image/png' size='331473'/>
+                <attachment title='Screenshot' source='92b09371-2b0e-48e2-bc2f-0842369a8498-attachment.png' type='image/png' size='343432'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611267577' status='passed' stop='1649611299339'>
+            <name>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</name>
+            <title>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611267577' status='passed' stop='1649611267577'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611299340' status='passed' stop='1649611299340'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2e7ef7ff-c5dd-4ccb-bab4-fc658926b1d2-attachment.png' type='image/png' size='323623'/>
+                <attachment title='Screenshot' source='44ac23f1-7909-4d42-96a7-9288680bbfc1-attachment.png' type='image/png' size='298297'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649611299341' status='passed' stop='1649611300750'>
+            <name>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.75'/>
+            </parameters>
+            <steps>
+                <step start='1649611299342' status='passed' stop='1649611299342'>
+                    <name>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"before each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649611300750' status='passed' stop='1649611300751'>
+                    <name>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+                    <title>"after each" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ec634e08-97c0-42eb-b777-a7a151acd4d3-attachment.png' type='image/png' size='362795'/>
+                <attachment title='Screenshot' source='c58318b3-c4c9-45cc-beb4-fcc355f80f77-attachment.png' type='image/png' size='386969'/>
+                <attachment title='Screenshot' source='b2ad0183-b73b-4a6b-b2a0-288cc4f312dd-attachment.png' type='image/png' size='372802'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

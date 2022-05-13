@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649053398829' stop='1649053404171'>
+    <name>Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+    <title>Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+    <test-cases>
+        <test-case start='1649053401396' status='failed' stop='1649053403736'>
+            <name>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</name>
+            <title>ENG_LAND_TC_4 Validate that user is able to change the language of the page from the language drop down - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649053401397' status='passed' stop='1649053401398'>
+                    <name>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649053403736' status='passed' stop='1649053403736'>
+                    <name>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='03abe165-5662-4dd3-b4e3-b384e943a51f-attachment.png' type='image/png' size='404485'/>
+                <attachment title='Screenshot' source='a480503c-3641-44d1-8038-7facac7f29b7-attachment.png' type='image/png' size='404485'/>
+            </attachments>
+            <failure>
+                <message>Language not selected: expected 'ES - Español -- language not found in the dropdown' to equal true      
+                      actual expected
+                      
+                      'ES - Español -- language not found in the dropdown'true
+                      </message>
+                <stack-trace>AssertionError: Language not selected: expected 'ES - Español -- language not found in the dropdown' to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_LAND_TC_4 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/landing.test.js:28:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649053403737' status='failed' stop='1649053404170'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649053403737' status='passed' stop='1649053403737'>
+                    <name>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"before each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649053404170' status='passed' stop='1649053404171'>
+                    <name>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</name>
+                    <title>"after each" hook for Suite2 - Validation of Landing Page Features and Content (Spanish)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='085e3bf9-d4bf-415f-8b96-532f9400c229-attachment.png' type='image/png' size='404485'/>
+            </attachments>
+            <failure>
+                <message>Headline text mismatch: expected 'One space for all your learning.' to equal 'Un espacio para todo su aprendizaje.'      
+                      actual expected
+                      
+                      'OneUn spaceespacio forpara alltodo yoursu learningaprendizaje.'
+                      </message>
+                <stack-trace>AssertionError: Headline text mismatch: expected 'One space for all your learning.' to equal 'Un espacio para todo su aprendizaje.'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_LAND_TC_5 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/landing.test.js:33:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

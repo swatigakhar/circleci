@@ -1,0 +1,805 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651135679858' stop='1651135746123'>
+    <name>Suite1 - Functional Validation of experience app for Teacher workflow</name>
+    <title>Suite1 - Functional Validation of experience app for Teacher workflow</title>
+    <test-cases>
+        <test-case start='1651135682114' status='passed' stop='1651135684958'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135682116' status='passed' stop='1651135682116'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135684959' status='passed' stop='1651135684960'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='aad7730b-7f62-4a21-95ff-b0cc5dc0ee0f-attachment.png' type='image/png' size='404126'/>
+                <attachment title='Screenshot' source='f3ceaaca-8bdf-43e4-8ca9-a5bd4bf903bc-attachment.png' type='image/png' size='293343'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135684960' status='passed' stop='1651135691722'>
+            <name>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</name>
+            <title>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135684961' status='passed' stop='1651135684961'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135691722' status='passed' stop='1651135691722'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7d3e825e-0678-47c9-9d50-d783c99f83b8-attachment.png' type='image/png' size='298400'/>
+                <attachment title='Screenshot' source='930cffea-1ec4-4596-ac66-1c5903decceb-attachment.png' type='image/png' size='665733'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135691722' status='passed' stop='1651135692509'>
+            <name>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</name>
+            <title>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135691723' status='passed' stop='1651135691723'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135692509' status='passed' stop='1651135692509'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7b096ad4-30e7-4394-8758-1117d1b9b6a9-attachment.png' type='image/png' size='665733'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135692510' status='passed' stop='1651135694248'>
+            <name>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</name>
+            <title>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135692511' status='passed' stop='1651135692511'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135694249' status='passed' stop='1651135694249'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9b94066f-5254-49bd-befe-076c0614bea8-attachment.png' type='image/png' size='665733'/>
+                <attachment title='Screenshot' source='23836b9a-b45a-4a1f-8b18-91c7fa32ba6a-attachment.png' type='image/png' size='1360827'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135694249' status='passed' stop='1651135695431'>
+            <name>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135694251' status='passed' stop='1651135694251'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135695431' status='passed' stop='1651135695432'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6695b845-ca6c-43e2-a720-5a56e4c80b5b-attachment.png' type='image/png' size='460856'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135695432' status='passed' stop='1651135696278'>
+            <name>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135695433' status='passed' stop='1651135695433'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135696278' status='passed' stop='1651135696278'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9ee4fe7a-a82f-49ca-94bc-3e44ad496427-attachment.png' type='image/png' size='460856'/>
+                <attachment title='Screenshot' source='debc6753-a7c4-44af-a264-089b0280c2e2-attachment.png' type='image/png' size='460275'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135696279' status='passed' stop='1651135699000'>
+            <name>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135696279' status='passed' stop='1651135696280'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135699001' status='passed' stop='1651135699001'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3aeda13a-361a-4406-ab28-044108dd9e68-attachment.png' type='image/png' size='460275'/>
+                <attachment title='Screenshot' source='ce9db95a-1fcb-442d-980f-fad5706249e6-attachment.png' type='image/png' size='459011'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135699002' status='passed' stop='1651135699923'>
+            <name>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</name>
+            <title>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135699003' status='passed' stop='1651135699003'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135699923' status='passed' stop='1651135699923'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e597ec7e-d4ca-4b26-abfd-99a24648cffc-attachment.png' type='image/png' size='459011'/>
+                <attachment title='Screenshot' source='9bc13c2c-2d95-4c7e-b5c8-41de3e69711a-attachment.png' type='image/png' size='460542'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135699923' status='passed' stop='1651135700930'>
+            <name>ENG_INS_CLASS_TC_44 Validate book details is launched after clicking on View Book button - (P1)</name>
+            <title>ENG_INS_CLASS_TC_44 Validate book details is launched after clicking on View Book button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135699924' status='passed' stop='1651135699924'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135700930' status='passed' stop='1651135700931'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3779a643-5308-445e-9ff6-b5dfc233ec3b-attachment.png' type='image/png' size='461418'/>
+                <attachment title='Screenshot' source='5e68faba-8272-45c2-8fc1-91fe25cdd08a-attachment.png' type='image/png' size='460381'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135700931' status='passed' stop='1651135702119'>
+            <name>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</name>
+            <title>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135700932' status='passed' stop='1651135700932'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135702119' status='passed' stop='1651135702120'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4140e49b-9ae7-4d38-a5f7-c04fd58e5443-attachment.png' type='image/png' size='460381'/>
+                <attachment title='Screenshot' source='d9d6f70e-f985-4b79-a44e-df54534f92b6-attachment.png' type='image/png' size='500805'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135702120' status='passed' stop='1651135703198'>
+            <name>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</name>
+            <title>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135702121' status='passed' stop='1651135702121'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135703198' status='passed' stop='1651135703198'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c56ce38a-de3a-4725-89bb-fd9cc3f14a00-attachment.png' type='image/png' size='500805'/>
+                <attachment title='Screenshot' source='afa73e24-9d58-4c9a-82f0-cfde09dd7af7-attachment.png' type='image/png' size='445930'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135703199' status='passed' stop='1651135703462'>
+            <name>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</name>
+            <title>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135703200' status='passed' stop='1651135703200'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135703462' status='passed' stop='1651135703462'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8a914934-5eda-4a56-a4c6-7972f814efbd-attachment.png' type='image/png' size='445930'/>
+                <attachment title='Screenshot' source='1768353a-377b-4ee7-8d1d-6e6f3b67629a-attachment.png' type='image/png' size='144194'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135703463' status='failed' stop='1651135706704'>
+            <name>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</name>
+            <title>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135703463' status='passed' stop='1651135703463'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135706705' status='passed' stop='1651135706706'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='bc19a85c-e672-423b-be6f-2afd02fdacc9-attachment.png' type='image/png' size='1978007'/>
+            </attachments>
+            <failure>
+                <message>prevActivityBtn status mismatch: expected '  Previous Activity' to equal 'Previous Activity'      
+                      actual expected
+                      
+                      '  Previous Activity'
+                      </message>
+                <stack-trace>AssertionError: prevActivityBtn status mismatch: expected '  Previous Activity' to equal 'Previous Activity'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_PLAY_TC_1 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:29:14)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651135706707' status='passed' stop='1651135706973'>
+            <name>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</name>
+            <title>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135706709' status='passed' stop='1651135706709'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135706973' status='passed' stop='1651135706973'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='968a5aae-9a87-4bc8-b3ea-ebe5590496a4-attachment.png' type='image/png' size='1978007'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135706973' status='passed' stop='1651135707821'>
+            <name>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135706973' status='passed' stop='1651135706974'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135707821' status='passed' stop='1651135707822'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7ae5eb04-3bc1-4c6d-9c1b-26d3bbe5ea02-attachment.png' type='image/png' size='1978007'/>
+                <attachment title='Screenshot' source='23ab5f73-7b55-4f0b-884f-d195612c1869-attachment.png' type='image/png' size='1804064'/>
+                <attachment title='Screenshot' source='a61c7e0c-cd83-4b42-9f08-2ab98285fd70-attachment.png' type='image/png' size='1805658'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135707822' status='passed' stop='1651135708340'>
+            <name>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</name>
+            <title>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135707822' status='passed' stop='1651135707823'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135708341' status='passed' stop='1651135708341'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ec38b30e-e197-4de3-b1be-68f8183ef857-attachment.png' type='image/png' size='1805658'/>
+                <attachment title='Screenshot' source='e3eb0f41-9ba2-44d8-a862-4eb5b57faa57-attachment.png' type='image/png' size='1776767'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135708341' status='passed' stop='1651135708781'>
+            <name>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135708341' status='passed' stop='1651135708341'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135708781' status='passed' stop='1651135708781'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7ba9cee4-11e6-4013-9c2d-ea3c4fbf8c74-attachment.png' type='image/png' size='1776767'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135708781' status='passed' stop='1651135709165'>
+            <name>ENG_PLAY_TC_10 Validate the activity player when Last question of quiz is launched - ()</name>
+            <title>ENG_PLAY_TC_10 Validate the activity player when Last question of quiz is launched - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135708782' status='passed' stop='1651135708782'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135709165' status='passed' stop='1651135709166'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a14921a9-8e8f-4a54-904b-70e0e593ae39-attachment.png' type='image/png' size='1776767'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135709166' status='failed' stop='1651135709770'>
+            <name>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</name>
+            <title>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135709166' status='passed' stop='1651135709167'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135709770' status='passed' stop='1651135709770'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2fd2e7bf-c760-4f25-942b-eee68b65833d-attachment.png' type='image/png' size='1776767'/>
+            </attachments>
+            <failure>
+                <message>prevActivityBtn status mismatch: expected '  Previous Activity' to equal 'Previous Activity'      
+                      actual expected
+                      
+                      '  Previous Activity'
+                      </message>
+                <stack-trace>AssertionError: prevActivityBtn status mismatch: expected '  Previous Activity' to equal 'Previous Activity'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_PLAY_TC_8 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:143:14)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651135709770' status='passed' stop='1651135710105'>
+            <name>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</name>
+            <title>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135709770' status='passed' stop='1651135709771'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135710105' status='passed' stop='1651135710105'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9d7da923-2b7e-4105-9c0a-d09476470ea1-attachment.png' type='image/png' size='1776767'/>
+                <attachment title='Screenshot' source='f5916162-3b66-42bd-97a0-dadd9a51ceee-attachment.png' type='image/png' size='191272'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135710106' status='passed' stop='1651135710632'>
+            <name>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135710106' status='passed' stop='1651135710106'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135710633' status='passed' stop='1651135710633'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='faead888-94d1-4c04-bd8e-b2e891822a37-attachment.png' type='image/png' size='355315'/>
+                <attachment title='Screenshot' source='2e16b0f9-c725-4d0c-9f5c-61ca1ddfe0ae-attachment.png' type='image/png' size='613121'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135710634' status='passed' stop='1651135711038'>
+            <name>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</name>
+            <title>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135710634' status='passed' stop='1651135710634'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135711038' status='passed' stop='1651135711038'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c842aa68-dcb4-4ffb-93b7-503ba3de492a-attachment.png' type='image/png' size='589117'/>
+                <attachment title='Screenshot' source='afa8a759-7d7a-4410-9e45-28cef2e294c7-attachment.png' type='image/png' size='616259'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135711038' status='passed' stop='1651135711564'>
+            <name>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</name>
+            <title>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135711038' status='passed' stop='1651135711039'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135711564' status='passed' stop='1651135711564'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c2900c8b-94be-4bd6-b008-007f8eacac37-attachment.png' type='image/png' size='614558'/>
+                <attachment title='Screenshot' source='b84245dd-af76-4790-9e76-8e8714f34de5-attachment.png' type='image/png' size='620464'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135711564' status='passed' stop='1651135742533'>
+            <name>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</name>
+            <title>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135711565' status='passed' stop='1651135711565'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135742533' status='passed' stop='1651135742533'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='388f5eb4-eb7f-4c92-aef2-9b87659f7c70-attachment.png' type='image/png' size='593789'/>
+                <attachment title='Screenshot' source='ae2d05db-8dd2-4a30-b25f-16e67e1d2fa4-attachment.png' type='image/png' size='670227'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135742534' status='passed' stop='1651135743002'>
+            <name>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135742534' status='passed' stop='1651135742534'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135743002' status='passed' stop='1651135743003'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8096a5d4-9034-4467-9a60-25a227f9cc35-attachment.png' type='image/png' size='668989'/>
+                <attachment title='Screenshot' source='1d415dba-e820-44b2-98b0-4cb7bdd8d334-attachment.png' type='image/png' size='704235'/>
+            </attachments>
+        </test-case>
+        <test-case start='1651135743003' status='passed' stop='1651135746121'>
+            <name>ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1651135743004' status='passed' stop='1651135743004'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651135746122' status='passed' stop='1651135746122'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='062e636d-8227-4738-bcbb-0297b52bad69-attachment.png' type='image/png' size='694826'/>
+                <attachment title='Screenshot' source='feb75632-34c1-4dc0-a370-fe71df9a44b2-attachment.png' type='image/png' size='293343'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

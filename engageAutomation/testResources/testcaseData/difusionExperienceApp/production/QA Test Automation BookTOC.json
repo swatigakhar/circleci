@@ -1,0 +1,147 @@
+{
+    "book": {
+        "name": "QA Test Automation Book [DO NOT MODIFY]",
+        "description": "DO NOT MODIFY",
+        "component": [
+            {
+                "index": 0,
+                "name": {
+                    "EN": "Textbook",
+                    "ES": "Textbook"
+                },
+                "unit": [
+                    {
+                        "index": 0,
+                        "title": "1. Unit 1",
+                        "activityCount": "1",
+                        "folderCount": "1",
+                        "flipbookPageNum": "3",
+                        "section": [
+                            {
+                                "index": 0,
+                                "name": "Part 1",
+                                "activity": [
+                                    "Presentation 2"
+                                ]
+                            },
+                            {
+                                "index": 1,
+                                "name": "Part 2",
+                                "activity": [
+                                    "Etext Activity -1",
+                                    "HTML Webbook Activity-1"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": {
+                    "EN": "Extra Activities",
+                    "ES": "Extra Activities"
+                },
+                "unit": [
+                    {
+                        "index": 0,
+                        "title": "1. Unit 1",
+                        "activityCount": "3",
+                        "folderCount": "1",
+                        "flipbookPageNum": "3",
+                        "section": [
+                            {
+                                "index": 0,
+                                "name": "Part 1",
+                                "activity": [
+                                    "Close Ended Activity 1",
+                                    "Close Ended Activity 2"
+                                ]
+                            },
+                            {
+                                "index": 1,
+                                "name": "Part2",
+                                "activity": [
+                                    "Presentation Slides Activity"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": {
+                    "EN": "Custom Component",
+                    "ES": "Custom Component"
+                },
+                "unit": [
+                    {
+                        "index": 0,
+                        "title": "Unit 1",
+                        "activityCount": "1",
+                        "folderCount": "0",
+                        "flipbookPageNum": "",
+                        "section": [
+                            {
+                                "index": 0,
+                                "name": "",
+                                "activity": [
+                                    "Native LO 1"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "index": 1,
+                        "title": "Unit 2",
+                        "activityCount": "1",
+                        "folderCount": "0",
+                        "flipbookPageNum": "",
+                        "section": [
+                            {
+                                "index": 0,
+                                "name": "",
+                                "activity": [
+                                    "Native LO 2",
+                                    "Native LO writing",
+                                    "Native LO 3"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": {
+                    "EN": "Book Resources",
+                    "ES": "Book Resources"
+                },
+                "nameES": "Book Resources",
+                "unit": [
+                    {
+                        "index": 0,
+                        "title": "1. Unit 1",
+                        "activityCount": "1",
+                        "folderCount": "0",
+                        "flipbookPageNum": "",
+                        "section": [
+                            {
+                                "index": 0,
+                                "name": "",
+                                "activity": [
+                                    "Practice Exam 1",
+                                    "Download word",
+                                    "Download zip",
+                                    "Download pdf",
+                                    "Download excel"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

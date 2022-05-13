@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649068853521' stop='1649068867077'>
+    <name>Suite1 - Validation of Landing Page Features and Content (English)</name>
+    <title>Suite1 - Validation of Landing Page Features and Content (English)</title>
+    <test-cases>
+        <test-case start='1649068853616' status='passed' stop='1649068858226'>
+            <name>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</name>
+            <title>ENG_LAND_TC_1 Validate that the landing page appears on launching the URL - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649068853617' status='passed' stop='1649068855682'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649068858227' status='passed' stop='1649068858227'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='eb5c154a-9ba3-4e4f-921a-8168601790d2-attachment.png' type='image/png' size='404334'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649068858228' status='failed' stop='1649068860766'>
+            <name>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</name>
+            <title>ENG_LAND_TC_5 Validate the content of the landing page (in English) - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649068858231' status='passed' stop='1649068858740'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649068860767' status='passed' stop='1649068860767'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a0cce748-6cfa-4dc6-9ead-0712a5c41303-attachment.png' type='image/png' size='404334'/>
+            </attachments>
+            <failure>
+                <message>Footer label text mismatch: expected 'powered by ' to equal 'powered by'      
+                      actual expected
+                      
+                      'powered by '
+                      </message>
+                <stack-trace>AssertionError: Footer label text mismatch: expected 'powered by ' to equal 'powered by'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_LAND_TC_5 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/landing.test.js:38:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/landingTest.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649068860767' status='passed' stop='1649068863667'>
+            <name>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the "Sign Up &amp; Start Learning Today" button - (P1)</name>
+            <title>ENG_LAND_TC_2 Validate that the sign up page is launched on clicking the "Sign Up &amp; Start Learning Today" button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649068860768' status='passed' stop='1649068861213'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649068863667' status='passed' stop='1649068863668'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='28b3ac1c-b7d8-4d5d-a59d-1cf9a34e167d-attachment.png' type='image/png' size='404334'/>
+                <attachment title='Screenshot' source='0e0a9042-1647-43d6-ae68-d556a5e7566d-attachment.png' type='image/png' size='292837'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649068863668' status='passed' stop='1649068867070'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649068863669' status='passed' stop='1649068864101'>
+                    <name>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"before each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649068867071' status='passed' stop='1649068867072'>
+                    <name>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</name>
+                    <title>"after each" hook for Suite1 - Validation of Landing Page Features and Content (English)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5fcc9c93-8730-4857-bc85-0b1d5e615bd5-attachment.png' type='image/png' size='404334'/>
+                <attachment title='Screenshot' source='aba18911-088b-419a-9f72-56bc5a7fcbb1-attachment.png' type='image/png' size='293510'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

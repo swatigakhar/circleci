@@ -1,0 +1,306 @@
+{
+    "appname": "Assessment Editor",
+    "appdetails": "",
+    "selectorFile": "./testResources/selectors/assessmentEditor/editorSelectors.json",
+    "modules": [
+        {
+            "modulename": "Assessment Editor",
+            "moduledetails": "",
+            "testFile": "./test/assessmentEditor/editor.test.js",
+            "testcase": [
+                {
+                    "id": "EDIT_TC_1",
+                    "description": "TestBench Home page is initialised",
+                    "tags": "P1"
+                },
+                {
+                    "id": "EDIT_TC_2",
+                    "description": "Click on Launch Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "EDIT_TC_13",
+                    "description": "Click on Add Answer Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_4",
+                    "description": "Validate that a new question is added by clicking on the 'Add new Question' button on the left pane",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_QUN_TC_5",
+                    "description": "Validate that alphanumeric text is supported in Question Title Text.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_QUN_TC_17",
+                    "description": "Validate that the Next Button is enabled only after a question is added",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MCQ_TC_14",
+                    "description": "Validate that Option is added in  questions",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_86",
+                    "description": "Validate that user is able to add Audio using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_87",
+                    "description": "Validate that user is able to add Video using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_92",
+                    "description": "Validate that user is able to add 'Title/Credits' in Audio Media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_120",
+                    "description": "Validate the editor is selected in question pane and displayed.",
+                    "tags": "P1"
+                },
+                
+                {
+                    "id": "ASE_QUN_TC_9",
+                    "description": "Validate that the Question can be added using Add Question button.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_9",
+                    "description": "Validate that the user can add a label in the Response Template",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_15",
+                    "description": "Validate that the 'Video Player' in the media works fine",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_16",
+                    "description": "Validate that the 'Title/Credits' are working fine in Video media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_13",
+                    "description": "Validate tthe pair is added in player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_MAT_TC_14",
+                    "description": "Validate the text is added in left itmes",
+                    "tags": "P1"
+                },
+
+                {
+                    "id": "ASE_MAT_TC_15",
+                    "description": "Validate the text is added in matched itmes",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_9",
+                    "description": "Validate that student can add instruction for each question under the 'Question' section",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_2",
+                    "description": "Validate that user is able to add group if group count is less than 10",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_13",
+                    "description": "Validate that user is able to add option if total option count is less than 15",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_9",
+                    "description": "Validate that special characters are allowed in Group Name.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_21",
+                    "description": "Validate that alphanumeric characters are allowed in option Name.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_CLS_TC_17",
+                    "description": "Validate that user should be able to select group for an option.",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_24",
+                    "description": "Validate that the default scoring for each question is 1",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_42",
+                    "description": "Validate if alpha-numeric text is allowed in the Question Text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_43",
+                    "description": "Validate if alpha-numeric text is allowed in the Option Text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_75",
+                    "description": "Validate that user is able to add image using Browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_DND_TC_29",
+                    "description": "DND Editor - Insert Image from browse button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIB_TC_1",
+                    "description": "Enter the Answer in FIB Value",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_997",
+                    "description": "Click preview button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_998",
+                    "description": "Click preview and publish tab",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_999",
+                    "description": "Click on save and return",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1000",
+                    "description": "set question text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1001",
+                    "description": "Set Header Title text from placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1002",
+                    "description": "Set Instruction text from placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1003",
+                    "description": "Next Question Clicked",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1004",
+                    "description": "Delete Media Clicked",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1005",
+                    "description": "Click Edit Prompt Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1006",
+                    "description": "Set Prompt textPlaceholder text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1007",
+                    "description": "Click on SubQuestion button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1008",
+                    "description": "Add Option text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1009",
+                    "description": "Click on SubQuestion text",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1010",
+                    "description": "Click on Top bottom option",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1011",
+                    "description": "Click on Left right option",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1012",
+                    "description": "Add the score in the activity player",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1013",
+                    "description": "Click Add Answer Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1014",
+                    "description": "Click Done Button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_COM_TC_1015",
+                    "description": "Click Add Subquestuib button",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1013",
+                    "description": "Click on unique for each blank",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1014",
+                    "description": "Click on Comman for all blanks",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1015",
+                    "description": "Set the text on the input options",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_FIBDROPDOWN_TC_1016",
+                    "description": "Validate the Set of Row Number",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_1",
+                    "description": "Validate the Set of Character Limit",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_2",
+                    "description": "Set the text on the reponse options",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_3",
+                    "description": "Validate the Set on text placeHolder",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_4",
+                    "description": "Validate the click on Allow Rich Text Media",
+                    "tags": "P1"
+                },
+                {
+                    "id": "ASE_WRITING_TC_5",
+                    "description": "Validate the click on Allow File Attachment",
+                    "tags": "P1"
+                }
+            ]
+        }
+    ]
+}

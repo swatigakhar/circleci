@@ -1,0 +1,955 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649344087902' stop='1649344501566'>
+    <name>Suite1 - Functional Validation of experience app for Teacher workflow</name>
+    <title>Suite1 - Functional Validation of experience app for Teacher workflow</title>
+    <test-cases>
+        <test-case start='1649344090015' status='passed' stop='1649344093312'>
+            <name>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</name>
+            <title>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the "Log in" button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344090016' status='passed' stop='1649344090017'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344093313' status='passed' stop='1649344093313'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6dd2d8f5-88ac-44ba-886d-7190a48ab2de-attachment.png' type='image/png' size='404314'/>
+                <attachment title='Screenshot' source='7f809648-461a-4757-a104-c30f32b80350-attachment.png' type='image/png' size='293527'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344093313' status='passed' stop='1649344100858'>
+            <name>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</name>
+            <title>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344093315' status='passed' stop='1649344093315'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344100858' status='passed' stop='1649344100858'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4c0eaa11-76df-4404-bb88-b2a6f5e370d4-attachment.png' type='image/png' size='298570'/>
+                <attachment title='Screenshot' source='20095c76-c56e-41d7-9546-92f5849c35d4-attachment.png' type='image/png' size='665878'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344100859' status='passed' stop='1649344101638'>
+            <name>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</name>
+            <title>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344100860' status='passed' stop='1649344100860'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344101639' status='passed' stop='1649344101639'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ac95e233-c9fe-4868-aeda-e93219bffe40-attachment.png' type='image/png' size='665878'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344101640' status='passed' stop='1649344103389'>
+            <name>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</name>
+            <title>ENG_DASH_TC_7 Validate that clicking on 'Add Book' button, book list page is launched to select books to add - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344101642' status='passed' stop='1649344101642'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344103389' status='passed' stop='1649344103389'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fef56112-a590-49da-a708-efc8251a00c1-attachment.png' type='image/png' size='665878'/>
+                <attachment title='Screenshot' source='98cb37c3-a1e8-44c2-93b9-764dc2c31141-attachment.png' type='image/png' size='1478920'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344103389' status='passed' stop='1649344104717'>
+            <name>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344103389' status='passed' stop='1649344103389'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344104717' status='passed' stop='1649344104718'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1d9d275e-da7c-4fdf-8e46-1b932738fd8f-attachment.png' type='image/png' size='460900'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344104719' status='passed' stop='1649344105574'>
+            <name>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</name>
+            <title>ENG_GLOB_TC_58 Validate that clicking on '+' button adds the book to My Books - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344104720' status='passed' stop='1649344104721'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344105574' status='passed' stop='1649344105574'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1653286f-be7a-4a94-bad7-086b6c828dc1-attachment.png' type='image/png' size='460900'/>
+                <attachment title='Screenshot' source='d0fdb3b9-b0d4-4740-aefb-b27e414d74ed-attachment.png' type='image/png' size='460313'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344105574' status='passed' stop='1649344108213'>
+            <name>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344105575' status='passed' stop='1649344105575'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344108214' status='passed' stop='1649344108214'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='010c75de-bce8-43b6-b673-be8d7e0f657b-attachment.png' type='image/png' size='460313'/>
+                <attachment title='Screenshot' source='552bcbf2-53f3-4bee-8c0d-a3a13cfdc9dd-attachment.png' type='image/png' size='459019'/>
+            </attachments>
+        </test-case>
+        <test-case start='1649344108214' status='failed' stop='1649344108419'>
+            <name>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</name>
+            <title>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344108215' status='passed' stop='1649344108215'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344108420' status='passed' stop='1649344108420'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e4479b05-9617-4e56-ad3f-674d40c2c5db-attachment.png' type='image/png' size='459019'/>
+            </attachments>
+            <failure>
+                <message>Class Details page is not launched: expected 'ERROR! No class found with name acceptanceClass !!' to equal true      
+                      actual expected
+                      
+                      'ERROR! No class found with name acceptanceClass !!'true
+                      </message>
+                <stack-trace>AssertionError: Class Details page is not launched: expected 'ERROR! No class found with name acceptanceClass !!' to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_INS_CLASS_TC_7 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/classDashboard.test.js:142:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344108420' status='failed' stop='1649344168799'>
+            <name>ENG_INS_CLASS_TC_44 Validate book details is launched after clicking on View Book button - (P1)</name>
+            <title>ENG_INS_CLASS_TC_44 Validate book details is launched after clicking on View Book button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344108422' status='passed' stop='1649344108422'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344168802' status='passed' stop='1649344168803'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ec5c55ce-1754-476a-b8f3-3f6753730200-attachment.png' type='image/png' size='459184'/>
+                <attachment title='Screenshot' source='47fff403-c577-429d-89bd-770b90ebc16a-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>View book page status mismatch: expected undefined to equal true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: View book page status mismatch: expected undefined to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_INS_CLASS_TC_44 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/classDashboard.test.js:502:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344168804' status='failed' stop='1649344168988'>
+            <name>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</name>
+            <title>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344168806' status='passed' stop='1649344168807'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344168988' status='passed' stop='1649344168989'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c9762418-91ae-48af-a208-c00cc5c4d5d5-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>Tab not selected: expected false to equal true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: Tab not selected: expected false to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_BOOK_TC_10 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewBook.test.js:66:19)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344168989' status='failed' stop='1649344169104'>
+            <name>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</name>
+            <title>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344168989' status='passed' stop='1649344168989'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344169104' status='passed' stop='1649344169104'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e9ee5715-f951-45c8-bee0-6f9aa13b156f-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>View Unit page status mismatch: expected undefined to equal true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: View Unit page status mismatch: expected undefined to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_BOOK_TC_19 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewBook.test.js:126:19)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344169104' status='failed' stop='1649344199542'>
+            <name>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</name>
+            <title>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344169105' status='passed' stop='1649344169105'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344199543' status='passed' stop='1649344199543'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ef458e94-2727-4de1-8b2b-b2cf76277618-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>Activity Not Clicked: expected false to equal true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: Activity Not Clicked: expected false to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_BOOK_TC_21 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewUnit.test.js:17:19)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344199545' status='failed' stop='1649344229854'>
+            <name>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</name>
+            <title>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344199548' status='passed' stop='1649344199548'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344229854' status='passed' stop='1649344229855'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d6d51678-15aa-4eeb-9efd-e40dcfecf188-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>Activity submission status mismatch: expected undefined to equal false</message>
+                <stack-trace>AssertionError: Activity submission status mismatch: expected undefined to equal false
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_PLAY_TC_1 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:11:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344229855' status='failed' stop='1649344260097'>
+            <name>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</name>
+            <title>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344229856' status='passed' stop='1649344229857'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344260098' status='passed' stop='1649344260098'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='acebe6cc-0e50-475a-9c0d-8233b03ca5b1-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>Multi MCSR question not loaded: expected [Error: element ("div[class*=item-player-container] > div:not([style='height: 100%; display: none;']) [data-tid*=input-click-option-sub-question-") still not existing after 30000ms] to equal true      
+                      actual expected
+                      
+                      { [Error: element ("div[class*=item-player-container] > div:not([style='height: 100%; display: none;']) [data-tid*=input-click-option-sub-question-") still not existing after 30000ms] name: 'Error' }true
+                      </message>
+                <stack-trace>AssertionError: Multi MCSR question not loaded: expected [Error: element ("div[class*=item-player-container] > div:not([style='height: 100%; display: none;']) [data-tid*=input-click-option-sub-question-") still not existing after 30000ms] to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_ITEM_MMCQ_TC_1 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/multimcq.test.js:10:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344260102' status='failed' stop='1649344260325'>
+            <name>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344260104' status='passed' stop='1649344260105'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344260325' status='passed' stop='1649344260326'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e5c99471-236b-4dba-b3ef-97378167b091-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>expected 0 to equal true      
+                      actual expected
+                      
+                      0true
+                      </message>
+                <stack-trace>AssertionError: expected 0 to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_ITEM_MMCQ_TC_2 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/multimcq.test.js:16:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344260326' status='failed' stop='1649344320851'>
+            <name>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</name>
+            <title>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344260327' status='passed' stop='1649344260327'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344320854' status='passed' stop='1649344320856'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c0136141-fd0d-4df4-9f29-7f647b930023-attachment.png' type='image/png' size='459184'/>
+                <attachment title='Screenshot' source='e295ec11-9475-4689-bc3d-983048d67d56-attachment.png' type='image/png' size='459184'/>
+            </attachments>
+            <failure>
+                <message>checkAnswerBtn status mismatch: expected [Error: Can't call click on element with selector "[data-tid='button-checkAnswers']" because element wasn't found] to equal false      
+                      actual expected
+                      
+                      { [Error: Can't call click on element with selector "[data-tid='button-checkAnswers']" because element wasn't found] name: 'Error' }false
+                      </message>
+                <stack-trace>AssertionError: checkAnswerBtn status mismatch: expected [Error: Can't call click on element with selector "[data-tid='button-checkAnswers']" because element wasn't found] to equal false
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_PLAY_TC_3 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:74:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344320857' status='failed' stop='1649344501248'>
+            <name>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</name>
+            <title>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344320858' status='passed' stop='1649344320858'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501249' status='passed' stop='1649344501250'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Multi MCSR 'value' for index 0 is - 1-O1,Error: Can't call getText on element with selector "div[class*=item-player-container] > div:not([style='height: 100%; display: none;']) [data-tid*=input-click-option-sub-question-1-O1] " because element wasn't found,,: expected '' to equal 'correct'      
+                      actual expected
+                      
+                      'correct'
+                      </message>
+                <stack-trace>AssertionError: Multi MCSR 'value' for index 0 is - 1-O1,Error: Can't call getText on element with selector "div[class*=item-player-container] > div:not([style='height: 100%; display: none;']) [data-tid*=input-click-option-sub-question-1-O1] " because element wasn't found,,: expected '' to equal 'correct'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_ITEM_MMCQ_TC_3 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/multimcq.test.js:24:15)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501251' status='passed' stop='1649344501389'>
+            <name>ENG_PLAY_TC_10 Validate the activity player when Last question of quiz is launched - ()</name>
+            <title>ENG_PLAY_TC_10 Validate the activity player when Last question of quiz is launched - ()</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501251' status='passed' stop='1649344501251'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501389' status='passed' stop='1649344501389'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1649344501390' status='failed' stop='1649344501406'>
+            <name>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</name>
+            <title>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501390' status='passed' stop='1649344501390'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501406' status='passed' stop='1649344501407'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>submit status mismatch: expected undefined to equal true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: submit status mismatch: expected undefined to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_PLAY_TC_8 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:124:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501407' status='failed' stop='1649344501428'>
+            <name>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</name>
+            <title>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501407' status='passed' stop='1649344501407'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501428' status='passed' stop='1649344501429'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Back button is not clicked: expected [invalid session id: unknown error] to equal true      
+                      actual expected
+                      
+                      { [invalid session id: unknown error] name: 'invalid session id' }true
+                      </message>
+                <stack-trace>AssertionError: Back button is not clicked: expected [invalid session id: unknown error] to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_SHELL_TC_11 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/appShell.test.js:118:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501429' status='failed' stop='1649344501453'>
+            <name>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501429' status='passed' stop='1649344501429'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501454' status='passed' stop='1649344501454'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Dashboard page status mismatch: expected undefined to equal true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: Dashboard page status mismatch: expected undefined to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_SHELL_TC_2 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/appShell.test.js:32:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501454' status='broken' stop='1649344501471'>
+            <name>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</name>
+            <title>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with 'Remove from My Books' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501454' status='passed' stop='1649344501454'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501471' status='passed' stop='1649344501471'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'bookMenu_viewClassOption' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'bookMenu_viewClassOption' of undefined
+                    at Object.ENG_DASH_TC_12 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/dashboard.test.js:55:35)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501472' status='failed' stop='1649344501488'>
+            <name>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</name>
+            <title>ENG_DASH_TC_13 Validate that clicking on 'Remove from My Books' launches a pop up with label 'Remove from My Books?' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501472' status='passed' stop='1649344501472'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501488' status='passed' stop='1649344501488'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Menu Remove Title status mismatch: expected undefined to equal 'Remove from My Books?'      
+                      actual expected
+                      
+                      undefined'Remove from My Books?'
+                      </message>
+                <stack-trace>AssertionError: Menu Remove Title status mismatch: expected undefined to equal 'Remove from My Books?'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_DASH_TC_13 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/dashboard.test.js:65:19)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501488' status='failed' stop='1649344501519'>
+            <name>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</name>
+            <title>ENG_DASH_TC_15 Validate that clicking on 'Remove' removes the book from 'My List' - (P1)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501489' status='passed' stop='1649344501489'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501520' status='passed' stop='1649344501520'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Remove button status mismatch: expected [invalid session id: unknown error] to equal true      
+                      actual expected
+                      
+                      { [invalid session id: unknown error] name: 'invalid session id' }true
+                      </message>
+                <stack-trace>AssertionError: Remove button status mismatch: expected [invalid session id: unknown error] to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_DASH_TC_15 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/dashboard.test.js:81:19)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501520' status='failed' stop='1649344501545'>
+            <name>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501520' status='passed' stop='1649344501520'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501545' status='passed' stop='1649344501545'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>User Name Text mismatch: expected undefined to equal 'acceptance Teacher'      
+                      actual expected
+                      
+                      undefined'acceptance Teacher'
+                      </message>
+                <stack-trace>AssertionError: User Name Text mismatch: expected undefined to equal 'acceptance Teacher'
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_SHELL_TC_8 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/appShell.test.js:78:14)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649344501545' status='failed' stop='1649344501565'>
+            <name>ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)</name>
+            <title>ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps>
+                <step start='1649344501545' status='passed' stop='1649344501545'>
+                    <name>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"before each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1649344501565' status='passed' stop='1649344501565'>
+                    <name>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</name>
+                    <title>"after each" hook for Suite1 - Functional Validation of experience app for Teacher workflow</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Landing page status mismatch: expected undefined to equal true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: Landing page status mismatch: expected undefined to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_SHELL_TC_9 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/appShell.test.js:89:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

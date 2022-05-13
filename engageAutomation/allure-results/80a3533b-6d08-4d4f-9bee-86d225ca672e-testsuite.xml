@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649340335294' stop='1649340359611'>
+    <name>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+    <title>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+    <test-cases>
+        <test-case start='1649340359576' status='broken' stop='1649340359576'>
+            <name>"before all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+            <title>"before all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed to create session.
+                socket hang up</message>
+                <stack-trace>Error: Failed to create session.
+                socket hang up
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:40:37)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649340359611' status='failed' stop='1649340359611'>
+            <name>"after all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+            <title>"after all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Back button is not clicked: expected [RequestError: connect ECONNREFUSED 127.0.0.1:4444] to equal true</message>
+                <stack-trace>AssertionError: Back button is not clicked: expected [RequestError: connect ECONNREFUSED 127.0.0.1:4444] to equal true
+                    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+                    at Object.ENG_SHELL_TC_11 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/appShell.test.js:118:13)
+                    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+                    at specRunner.jsonHookObjParser (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:246:14)
+                    at /Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:159:34
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:155:69)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

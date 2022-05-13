@@ -1,0 +1,327 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Timeline Report</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+            <style>
+                
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+    }
+
+    .summary {
+        padding-bottom: 14px;
+    }
+
+    .is-selected {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        transition: all .2s ease-in-out;
+        transform: scale(1.05);   
+    }
+
+    .test {
+        width: 90%;
+        margin: 3rem auto;
+    }
+
+    .screenshots-scroll-container {
+        overflow-x: scroll;
+    }
+
+    .screenshots {
+        padding: 10px 5px 10px 10px;
+        white-space: nowrap;
+        background: #bbb;
+    }
+
+    .screenshots img {
+        width: 300px;
+        margin-right: 5px;
+    }
+
+    .fail p {
+        color: #FF3860;   
+    }
+
+    details {
+        color: #FF3860;
+        border-radius: 4px;
+        padding: .5em .5em 0;
+    }
+
+    summary {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    table {
+        text-overflow: elipsis;
+    }
+
+    #modal-images img {
+        display: inline;
+        border: solid;
+        border-color: pink;
+    }
+
+    #filter {
+        padding-top: 14px;
+    }
+
+    #results.passed .test.failed {
+        display: none;
+    }
+    
+    #results.passed .test.skipped {
+        display: none;
+    }
+    
+    #results.passed .test.pending {
+        display: none;
+    }
+    
+    #results.skipped .test.passed {
+        display: none;
+    }
+    
+    #results.skipped .test.failed {
+        display: none;
+    }
+
+    #results.skipped .test.pending {
+        display: none;
+    }
+    
+    #results.failed .test.skipped {
+        display: none;
+    }
+    
+    #results.failed .test.passed {
+        display: none;
+    }
+
+    #results.failed .test.pending {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+    
+    .linkable-header__link {
+        opacity: 0;
+        margin-left: -30px;
+        width: 30px;
+        display: inline-block;
+    }
+    
+    .linkable-header:hover .linkable-header__link,
+    .linkable-header .linkable-header__link:focus {
+        opacity: 1;
+    }
+
+            </style>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        </head>
+
+        <body>
+            <div><div class="modal"><div class="modal-background"></div><div class="modal-content"><p id="modal-images" class="image"></p></div><button class="modal-close is-large" aria-label="close"></button></div><section class="section has-background-light" style="padding-bottom:25px"><div id="filter" class="container"><h3 class="title is-3"><span class="has-text-grey-light">Total Duration:</span> 2 hours, 39 minutes, 38 seconds</h3><div class="columns summary"><div class="column"><div data-status="all" class="is-selected notification is-link"><h1 class="title is-size-2">28</h1><p class="title is-size-4">Total</p></div></div><div class="column"><div data-status="passed" class="notification is-success"><h1 class=" title is-size-2">9</h1><p class="title is-size-4">Passed</p></div></div><div class="column"><div data-status="failed" class="notification is-danger"><h1 class="title is-size-2">19</h1><p class="title is-size-4">Failed</p></div></div><div class="column"><div data-status="skipped" class="notification is-warning"><h1 class="title is-size-2">0</h1><p class="title is-size-4">Skipped</p></div></div></div></div><div class="container"><div class="columns"><div class="column
+            is-half"><div class="control has-icons-left has-icons-right"><input type="text" id="search" class="input" placeholder="Search for specs containing specific text e.g browser version"/><span class="icon is-small is-left"><i class="fas fa-search"></i></span></div></div></div><p id="no-results" style="display:none">No results found</p><div id="results" class="tests all"><div class="box" data-box-is="spec"><h4 class="title is-4"><span class="has-text-grey-light">Spec:</span> AcceptanceNew.json </h4><h4 class="title is-4"><span class="has-text-grey-light">Duration:</span> 2 hours, 39 minutes, 36 seconds</h4><h4 class="title is-4"><span class="has-text-grey-light">Browser: </span><span class="has-text-grey-light"><i class="fab undefined"></i></span> Safari 14.1.2</h4><div class="box suites-results" data-box-is="suite"><h4 id="Suite1---Functional-Validation-of-experience-app-for-Teacher-workflow" class="subtitle is-4 linkable-header subtitle"><a href="#Suite1---Functional-Validation-of-experience-app-for-Teacher-workflow" class="linkable-header__link">🔗</a>Suite1 - Functional Validation of experience app for Teacher workflow</h4><div class="box test passed"><h5 id="ENG_LAND_TC_3-Validate-that-the-sign-in-page-is-launched-on-clicking-the-&quot;Log-in&quot;-button---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_LAND_TC_3-Validate-that-the-sign-in-page-is-launched-on-clicking-the-&quot;Log-in&quot;-button---(P1)" class="linkable-header__link">🔗</a>ENG_LAND_TC_3 Validate that the sign in page is launched on clicking the &quot;Log in&quot; button - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>3 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:40</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:43</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344542976.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344543603.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_IDEN_TC_7-Validate-that-the-user-is-able-to-login-successfully-with-an-existing-account---()" class="subtitle is-5 linkable-header "><a href="#ENG_IDEN_TC_7-Validate-that-the-user-is-able-to-login-successfully-with-an-existing-account---()" class="linkable-header__link">🔗</a>ENG_IDEN_TC_7 Validate that the user is able to login successfully with an existing account - ()</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>7 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:43</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:50</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344544765.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344550654.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_DASH_TC_1-Validate-the-content-of-the-blank-Dashboard-page-in-English-Language---(P2)" class="subtitle is-5 linkable-header "><a href="#ENG_DASH_TC_1-Validate-the-content-of-the-blank-Dashboard-page-in-English-Language---(P2)" class="linkable-header__link">🔗</a>ENG_DASH_TC_1 Validate the content of the blank Dashboard page in English Language - (P2)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>1 second</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:50</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:51</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344551336.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_DASH_TC_7-Validate-that-clicking-on-&#x27;Add-Book&#x27;-button,-book-list-page-is-launched-to-select-books-to-add---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_DASH_TC_7-Validate-that-clicking-on-&#x27;Add-Book&#x27;-button,-book-list-page-is-launched-to-select-books-to-add---(P1)" class="linkable-header__link">🔗</a>ENG_DASH_TC_7 Validate that clicking on &#x27;Add Book&#x27; button, book list page is launched to select books to add - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>2 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:51</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:53</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344551484.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344553126.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_GLOB_TC_28-Validate-that-searching-can-be-done-on-basis-of-resource-name---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_GLOB_TC_28-Validate-that-searching-can-be-done-on-basis-of-resource-name---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_GLOB_TC_28 Validate that searching can be done on basis of resource name - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>1 second</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:53</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:54</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344554326.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_GLOB_TC_58-Validate-that-clicking-on-&#x27;+&#x27;-button-adds-the-book-to-My-Books---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_GLOB_TC_58-Validate-that-clicking-on-&#x27;+&#x27;-button-adds-the-book-to-My-Books---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_GLOB_TC_58 Validate that clicking on &#x27;+&#x27; button adds the book to My Books - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>1 second</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:54</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:55</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344554467.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344555201.jpeg"/></div></div></div><div class="box test passed"><h5 id="ENG_SHELL_TC_4-Validate-that-clicking-on-the-Classes-button-in-the-left-navigation-pane-launches-Classes-List--page---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_SHELL_TC_4-Validate-that-clicking-on-the-Classes-button-in-the-left-navigation-pane-launches-Classes-List--page---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_SHELL_TC_4 Validate that clicking on the Classes button in the left navigation pane launches Classes List  page - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>3 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:55</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:57</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344555874.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344557768.jpeg"/></div></div></div><div class="box test failed"><h5 id="ENG_INS_CLASS_TC_7-Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_INS_CLASS_TC_7-Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class---(P1)" class="linkable-header__link">🔗</a>ENG_INS_CLASS_TC_7 Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>0 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:57</td></tr><tr><td>End:</td><td>April 7, 2022 20:45:57</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344557990.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Class Details page is not launched: expected &#x27;ERROR! No class found with name acceptanceClass !!&#x27; to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: Class Details page is not launched: expected &#x27;ERROR! No class found with name acceptanceClass !!&#x27; to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_INS_CLASS_TC_7 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/classDashboard.test.js:142:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_INS_CLASS_TC_44-Validate-book-details-is-launched-after-clicking-on-View-Book-button---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_INS_CLASS_TC_44-Validate-book-details-is-launched-after-clicking-on-View-Book-button---(P1)" class="linkable-header__link">🔗</a>ENG_INS_CLASS_TC_44 Validate book details is launched after clicking on View Book button - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>1 minute</td></tr><tr><td>Start:</td><td>April 7, 2022 20:45:58</td></tr><tr><td>End:</td><td>April 7, 2022 20:46:58</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344588193.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344618366.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">View book page status mismatch: expected undefined to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: View book page status mismatch: expected undefined to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_INS_CLASS_TC_44 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/classDashboard.test.js:502:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_BOOK_TC_10-Validate-clicking-on-a-component-displays-the-units-asscoiated-with-the-component---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_BOOK_TC_10-Validate-clicking-on-a-component-displays-the-units-asscoiated-with-the-component---(P1)" class="linkable-header__link">🔗</a>ENG_BOOK_TC_10 Validate clicking on a component displays the units asscoiated with the component - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>0 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:46:58</td></tr><tr><td>End:</td><td>April 7, 2022 20:46:58</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344618524.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Tab not selected: expected false to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: Tab not selected: expected false to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_BOOK_TC_10 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewBook.test.js:66:19)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_BOOK_TC_19-Validate-clicking-on-a-unit-launches-the-unit-detail-view-page.---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_BOOK_TC_19-Validate-clicking-on-a-unit-launches-the-unit-detail-view-page.---(P1)" class="linkable-header__link">🔗</a>ENG_BOOK_TC_19 Validate clicking on a unit launches the unit detail view page. - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>0 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:46:58</td></tr><tr><td>End:</td><td>April 7, 2022 20:46:58</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344618635.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">View Unit page status mismatch: expected undefined to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: View Unit page status mismatch: expected undefined to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_BOOK_TC_19 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewBook.test.js:126:19)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_BOOK_TC_21-Validate-that-clicking-on-Activity-on-unit-detail-view-page-launches-the-activity---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_BOOK_TC_21-Validate-that-clicking-on-Activity-on-unit-detail-view-page-launches-the-activity---(P1)" class="linkable-header__link">🔗</a>ENG_BOOK_TC_21 Validate that clicking on Activity on unit detail view page launches the activity - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>30 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:46:58</td></tr><tr><td>End:</td><td>April 7, 2022 20:47:28</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344648817.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Activity Not Clicked: expected false to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: Activity Not Clicked: expected false to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_BOOK_TC_21 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/viewUnit.test.js:17:19)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_PLAY_TC_1-Validate-testplayer-when-a-question-is-launched---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_PLAY_TC_1-Validate-testplayer-when-a-question-is-launched---(P1)" class="linkable-header__link">🔗</a>ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>30 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:47:28</td></tr><tr><td>End:</td><td>April 7, 2022 20:47:59</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344679165.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Activity submission status mismatch: expected undefined to equal false</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: Activity submission status mismatch: expected undefined to equal false
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_PLAY_TC_1 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:11:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_ITEM_MMCQ_TC_1-Validate-the-Multi-MCSR-question-launch-in-default-unattempted-state---(P3)" class="subtitle is-5 linkable-header "><a href="#ENG_ITEM_MMCQ_TC_1-Validate-the-Multi-MCSR-question-launch-in-default-unattempted-state---(P3)" class="linkable-header__link">🔗</a>ENG_ITEM_MMCQ_TC_1 Validate the Multi MCSR question launch in default unattempted state - (P3)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>30 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:47:59</td></tr><tr><td>End:</td><td>April 7, 2022 20:48:29</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344709635.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Multi MCSR question not loaded: expected [Error: element (&quot;div[class*=item-player-container]  div:not([style=&#x27;height: 100%; display: none;&#x27;]) [data-tid*=input-click-option-sub-question-&quot;) still not existing after 30000ms] to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: Multi MCSR question not loaded: expected [Error: element (&quot;div[class*=item-player-container]  div:not([style=&#x27;height: 100%; display: none;&#x27;]) [data-tid*=input-click-option-sub-question-&quot;) still not existing after 30000ms] to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_ITEM_MMCQ_TC_1 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/multimcq.test.js:10:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_ITEM_MMCQ_TC_2-Validate-that-the-user-can-select-an-option-in-multiple-sub-questions-while-performing-the-question---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_ITEM_MMCQ_TC_2-Validate-that-the-user-can-select-an-option-in-multiple-sub-questions-while-performing-the-question---(P1)" class="linkable-header__link">🔗</a>ENG_ITEM_MMCQ_TC_2 Validate that the user can select an option in multiple sub-questions while performing the question - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>0 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:48:29</td></tr><tr><td>End:</td><td>April 7, 2022 20:48:30</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344710059.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">expected 0 to equal true</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: expected 0 to equal true
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_ITEM_MMCQ_TC_2 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/multimcq.test.js:16:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_PLAY_TC_3-Validate-testplayer-when-user-click-on-Check-My-Work-button---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_PLAY_TC_3-Validate-testplayer-when-user-click-on-Check-My-Work-button---(P1)" class="linkable-header__link">🔗</a>ENG_PLAY_TC_3 Validate testplayer when user click on Check My Work button - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>1 minute</td></tr><tr><td>Start:</td><td>April 7, 2022 20:48:30</td></tr><tr><td>End:</td><td>April 7, 2022 20:49:30</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649344740268.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649344770443.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>AssertionError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">checkAnswerBtn status mismatch: expected [Error: Can&#x27;t call click on element with selector &quot;[data-tid=&#x27;button-checkAnswers&#x27;]&quot; because element wasn&#x27;t found] to equal false</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">AssertionError: checkAnswerBtn status mismatch: expected [Error: Can&#x27;t call click on element with selector &quot;[data-tid=&#x27;button-checkAnswers&#x27;]&quot; because element wasn&#x27;t found] to equal false
+    at Object.assertEqual (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/core/actionLibrary/baseAssertionLibrary.js:30:16)
+    at Object.ENG_PLAY_TC_3 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/activityPlayer.test.js:74:13)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_ITEM_MMCQ_TC_3-Validate-MCMR-question-functionality-for-Correct-scenario---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_ITEM_MMCQ_TC_3-Validate-MCMR-question-functionality-for-Correct-scenario---(P1)" class="linkable-header__link">🔗</a>ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>18 minutes, 24 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 20:49:30</td></tr><tr><td>End:</td><td>April 7, 2022 21:07:54</td></tr></table></div></div><div class="tile no-screenshots"><div class="screenshots-scroll-container"></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_ITEM_MMCQ_TC_3 Validate MCMR question functionality for Correct scenario - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test passed"><h5 id="ENG_PLAY_TC_10-Validate-the-activity-player-when-Last-question-of-quiz-is-launched---()" class="subtitle is-5 linkable-header "><a href="#ENG_PLAY_TC_10-Validate-the-activity-player-when-Last-question-of-quiz-is-launched---()" class="linkable-header__link">🔗</a>ENG_PLAY_TC_10 Validate the activity player when Last question of quiz is launched - ()</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>1 second</td></tr><tr><td>Start:</td><td>April 7, 2022 21:07:54</td></tr><tr><td>End:</td><td>April 7, 2022 21:07:55</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649345875672.jpeg"/></div></div></div><div class="box test failed"><h5 id="ENG_PLAY_TC_8-Validate-testplayer-when-a-question-is-launched-for-the-student---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_PLAY_TC_8-Validate-testplayer-when-a-question-is-launched-for-the-student---(P1)" class="linkable-header__link">🔗</a>ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>17 minutes, 10 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 21:07:55</td></tr><tr><td>End:</td><td>April 7, 2022 21:25:05</td></tr></table></div></div><div class="tile no-screenshots"><div class="screenshots-scroll-container"></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_PLAY_TC_8 Validate testplayer when a question is launched for the student - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_SHELL_TC_11-Validate-that-click-on-breadcrumb-back-button-on-the-header-launch-the-previous-page---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_SHELL_TC_11-Validate-that-click-on-breadcrumb-back-button-on-the-header-launch-the-previous-page---(P1)" class="linkable-header__link">🔗</a>ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>16 minutes, 2 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 21:25:05</td></tr><tr><td>End:</td><td>April 7, 2022 21:41:07</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649346906104.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_11 Validate that click on breadcrumb back button on the header launch the previous page - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test passed"><h5 id="ENG_SHELL_TC_2-Validate-that-clicking-on-the-Dashboard-button-in-the-left-navigation-pane-launches-Dashboard-page---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_SHELL_TC_2-Validate-that-clicking-on-the-Dashboard-button-in-the-left-navigation-pane-launches-Dashboard-page---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_SHELL_TC_2 Validate that clicking on the Dashboard button in the left navigation pane launches Dashboard page - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-success">PASSED</span></td></tr><tr><td>Duration:</td><td>1 second</td></tr><tr><td>Start:</td><td>April 7, 2022 21:41:07</td></tr><tr><td>End:</td><td>April 7, 2022 21:41:08</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649347867995.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649347868099.jpeg"/><img data-count="3" class="screenshot-img" src="./file-1649347868403.jpeg"/></div></div></div><div class="box test failed"><h5 id="ENG_DASH_TC_12-Validate-that-clicking-on-the-3-dots-on-book-details-page,-launches-the-option-menu-with-&#x27;Remove-from-My-Books&#x27;---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_DASH_TC_12-Validate-that-clicking-on-the-3-dots-on-book-details-page,-launches-the-option-menu-with-&#x27;Remove-from-My-Books&#x27;---(P1)" class="linkable-header__link">🔗</a>ENG_DASH_TC_12 Validate that clicking on the 3 dots on book details page, launches the option menu with &#x27;Remove from My Books&#x27; - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>0 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 21:41:08</td></tr><tr><td>End:</td><td>April 7, 2022 21:41:08</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649347868531.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>TypeError</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Cannot read property &#x27;bookMenu_viewClassOption&#x27; of undefined</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">TypeError: Cannot read property &#x27;bookMenu_viewClassOption&#x27; of undefined
+    at Object.ENG_DASH_TC_12 (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/engageExperienceApp/dashboard.test.js:55:35)
+    at specRunner.identifyTest (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:204:34)
+    at Context.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js:132:34)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_DASH_TC_13-Validate-that-clicking-on-&#x27;Remove-from-My-Books&#x27;-launches-a-pop-up-with-label-&#x27;Remove-from-My-Books?&#x27;---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_DASH_TC_13-Validate-that-clicking-on-&#x27;Remove-from-My-Books&#x27;-launches-a-pop-up-with-label-&#x27;Remove-from-My-Books?&#x27;---(P1)" class="linkable-header__link">🔗</a>ENG_DASH_TC_13 Validate that clicking on &#x27;Remove from My Books&#x27; launches a pop up with label &#x27;Remove from My Books?&#x27; - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>17 minutes, 58 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 21:41:08</td></tr><tr><td>End:</td><td>April 7, 2022 21:59:06</td></tr></table></div></div><div class="tile no-screenshots"><div class="screenshots-scroll-container"></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_DASH_TC_13 Validate that clicking on &#x27;Remove from My Books&#x27; launches a pop up with label &#x27;Remove from My Books?&#x27; - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_DASH_TC_13 Validate that clicking on &#x27;Remove from My Books&#x27; launches a pop up with label &#x27;Remove from My Books?&#x27; - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_DASH_TC_15-Validate-that-clicking-on-&#x27;Remove&#x27;-removes-the-book-from-&#x27;My-List&#x27;---(P1)" class="subtitle is-5 linkable-header "><a href="#ENG_DASH_TC_15-Validate-that-clicking-on-&#x27;Remove&#x27;-removes-the-book-from-&#x27;My-List&#x27;---(P1)" class="linkable-header__link">🔗</a>ENG_DASH_TC_15 Validate that clicking on &#x27;Remove&#x27; removes the book from &#x27;My List&#x27; - (P1)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>17 minutes, 35 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 21:59:06</td></tr><tr><td>End:</td><td>April 7, 2022 22:16:41</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649348947060.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649348947172.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_DASH_TC_15 Validate that clicking on &#x27;Remove&#x27; removes the book from &#x27;My List&#x27; - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_DASH_TC_15 Validate that clicking on &#x27;Remove&#x27; removes the book from &#x27;My List&#x27; - (P1)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_SHELL_TC_8-Validate-that-clicking-on-the-profile-dropdown-launches-the-dropdown-of-profile-and-other-options---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_SHELL_TC_8-Validate-that-clicking-on-the-profile-dropdown-launches-the-dropdown-of-profile-and-other-options---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>15 minutes, 56 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 22:16:41</td></tr><tr><td>End:</td><td>April 7, 2022 22:32:37</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649350002085.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649350002224.jpeg"/><img data-count="3" class="screenshot-img" src="./file-1649350002335.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_8 Validate that clicking on the profile dropdown launches the dropdown of profile and other options - (P1, Desktop)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div><div class="box test failed"><h5 id="ENG_SHELL_TC_9-Validate-that-user-is-able-to-logout-of-the-application-by-selecting-the-logout-option-from-the-profile-dropdown---(P1,-Desktop)" class="subtitle is-5 linkable-header "><a href="#ENG_SHELL_TC_9-Validate-that-user-is-able-to-logout-of-the-application-by-selecting-the-logout-option-from-the-profile-dropdown---(P1,-Desktop)" class="linkable-header__link">🔗</a>ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)</h5><div class="columns"><div class="column is-half"><table class="table is-hoverable"><tr><td>Status:</td><td><span class="tag is-normal is-danger">FAILED</span></td></tr><tr><td>Duration:</td><td>17 minutes, 8 seconds</td></tr><tr><td>Start:</td><td>April 7, 2022 22:32:37</td></tr><tr><td>End:</td><td>April 7, 2022 22:49:45</td></tr></table></div></div><div class="tile screenshots"><div class="screenshots-scroll-container"><img data-count="1" class="screenshot-img" src="./file-1649350958324.jpeg"/><img data-count="2" class="screenshot-img" src="./file-1649350958464.jpeg"/><img data-count="3" class="screenshot-img" src="./file-1649350958599.jpeg"/><img data-count="4" class="screenshot-img" src="./file-1649353052214.jpeg"/><img data-count="5" class="screenshot-img" src="./file-1649353052439.jpeg"/></div></div><details><summary class="subtitle has-text-danger">Error Log</summary><table class="table is-striped is-bordered is-fullwidth"><tr><td>Type:</td><td>Error</td></tr><tr><td>Message:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</pre></td></tr><tr><td>Stack:</td><td style="display:grid"><pre class="stack has-background-grey-dark has-text-white-bis">Error: Timeout of 600000ms exceeded. The execution in the test &quot;Suite1 - Functional Validation of experience app for Teacher workflow ENG_SHELL_TC_9 Validate that user is able to logout of the application by selecting the logout option from the profile dropdown - (P1, Desktop)&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+    at Test.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+    at Timeout.anonymous (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)</pre></td></tr></table></details></div></div><div class="box suites-results" data-box-is="suite"><h4 id="Suite2---Functional-Validation-of-experience-app-for-Student-workflow-(Paid-Book)" class="subtitle is-4 linkable-header subtitle"><a href="#Suite2---Functional-Validation-of-experience-app-for-Student-workflow-(Paid-Book)" class="linkable-header__link">🔗</a>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</h4></div></div></div></div></section><footer class="footer"><div class="content has-text-centered"><p><strong>wdio-timeline-reporter</strong> by Qops. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.</p><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--black.png" alt="Made with Bulma" width="128" height="24"/></a></div></footer></div>
+            <script type="text/javascript">
+                
+    const imgs = document.querySelectorAll('.screenshot-img');
+    const modalEl = document.querySelector('.modal');
+    const modalImgEl = document.querySelector('#show-me');
+    const allTests = document.querySelectorAll('.test');
+    const passedTests = document.querySelectorAll('.test.passed');
+    const failedTests = document.querySelectorAll('.test.failed');
+    const skippedTests = document.querySelectorAll('.test.skipped');
+    const filterButtons = document.querySelectorAll("#filter .notification");
+    const search = document.querySelector("#search");
+        
+    // Register onClick listeners on thumbnails
+    for (let i = 0; i < imgs.length; i++) {
+        imgs[i].addEventListener('click', function updateModal(event) {
+            // set the images
+            const parent = event.target.parentNode;
+            const images = parent.querySelectorAll('img');
+            const modalImages = document.querySelector('#modal-images');
+            modalImages.innerHTML = '';
+            for (let i = 0; i < images.length; i++) {
+                modalImages.appendChild(images[i].cloneNode(true));                 
+            }
+            if (images[0].naturalWidth / images[0].naturalHeight > 1) {
+                document.querySelector('.modal-content').setAttribute("style", "width: 90%;");
+            } else {
+                document.querySelector('.modal-content').setAttribute("style", "width: 640px");
+            }  
+
+            modalEl.classList.add('is-active');
+
+            const selector = '#modal-images img:nth-child(' + event.target.dataset.count + ')';
+            document.querySelector(selector).scrollIntoView();
+        });
+    }
+
+
+    const removeHide = function() {
+        const elements = document.querySelectorAll('.hide');
+        Array.from(elements).forEach(element => element.classList.remove('hide'));
+    }
+
+    const hideSuites = function() {
+        const suites = document.querySelectorAll("div[data-box-is='suite']");
+        for (let i = 0; i < suites.length; i++) {
+            const shouldHide = !Array.from(suites[i].querySelectorAll('div.test'))
+                                    .some(element => element.offsetHeight > 0)
+            if (shouldHide) {
+                suites[i].classList.add("hide");  
+            }
+        }
+    }
+
+    const hideSpecs = function() {
+        const specs = document.querySelectorAll("div[data-box-is='spec']");
+        for (let i = 0; i < specs.length; i++) {
+            const shouldHide = !Array.from(
+                specs[i].querySelectorAll('div[data-box-is="suite"]')
+                ).some(element => element.offsetHeight > 0);
+            if (shouldHide) {
+                specs[i].classList.add("hide");
+            }
+        }
+    }
+
+    for (let i = 0, max = filterButtons.length; i < max; i++) {
+        filterButtons[i].onclick = function (event) {
+            const container = document.querySelector('#results');
+            const statusClasses = ['all', 'passed', 'failed', 'skipped'];
+            statusClasses.forEach(item => container.classList.remove(item));
+            const status = filterButtons[i].dataset.status;
+            container.classList.add(status);
+
+            const isSelected = document.querySelector('#filter .is-selected');
+            isSelected.classList.remove('is-selected');
+            filterButtons[i].classList.add('is-selected');
+            removeHide();
+            hideSuites();
+            hideSpecs();
+        }
+    };
+
+    // Register onClick listener on the modal
+    modalEl.addEventListener('click', function hideModal(event) {
+        const isActive = modalEl.classList.contains('is-active');
+        if (isActive) {
+            modalEl.classList.remove('is-active');
+        }
+    });
+
+    search.addEventListener('keyup', function filter(event) {
+        const filter = event.target.value.toUpperCase();
+        let specs = document.querySelectorAll('[data-box-is="spec"]');
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < specs.length; i++) {
+            const txtValue = specs[i].textContent || specs[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                specs[i].style.display = "";
+            } else {
+                specs[i].style.display = "none";
+            }
+        }
+        specs = document.querySelectorAll('[data-box-is="spec"]');
+
+        const visibleSpecs = Array.from(specs)
+            .some(element => element.offsetWidth > 0 && element.offsetHeight > 0);
+
+        const noResults = document.querySelector('#no-results');
+        noResults.style.display = visibleSpecs ? 'none' : 'block';
+  
+    });
+
+            </script>
+        </body>
+    </html>
+    

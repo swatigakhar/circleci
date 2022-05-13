@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649351985801' stop='1649354114841'>
+    <name>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+    <title>Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+    <test-cases>
+        <test-case start='1649353051692' status='broken' stop='1649353051692'>
+            <name>"before all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+            <title>"before all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='10b109df-9c8a-4af5-ac34-c47910ca5371-attachment.png' type='image/png' size='143314'/>
+                <attachment title='Screenshot' source='7ea73057-57cd-405b-bf80-b52aa34fc441-attachment.png' type='image/png' size='155762'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 600000ms exceeded. The execution in the test "Suite2 - Functional Validation of experience app for Student workflow (Paid Book) "before all" hook for "ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</message>
+                <stack-trace>Error: Timeout of 600000ms exceeded. The execution in the test "Suite2 - Functional Validation of experience app for Student workflow (Paid Book) "before all" hook for "ENG_PLAY_TC_1 Validate testplayer when a question is launched - (P1)"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+                    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+                    at Hook.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1649354114841' status='broken' stop='1649354114841'>
+            <name>"after all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</name>
+            <title>"after all" hook for Suite2 - Functional Validation of experience app for Student workflow (Paid Book)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Safari-14.1.2'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 600000ms exceeded. The execution in the test "Suite2 - Functional Validation of experience app for Student workflow (Paid Book) "after all" hook for "ENG_BOOK_TC_26 Validate that clicking on Previous Unit button launches the Previous unit of Current Component - (P1)"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)</message>
+                <stack-trace>Error: Timeout of 600000ms exceeded. The execution in the test "Suite2 - Functional Validation of experience app for Student workflow (Paid Book) "after all" hook for "ENG_BOOK_TC_26 Validate that clicking on Previous Unit button launches the Previous unit of Current Component - (P1)"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/test/tempRunner/AcceptanceNew.js)
+                    at createTimeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/errors.js:498:15)
+                    at Hook.Runnable._timeoutError (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/swatigakhar/Desktop/comprocopy/comprodls-copy/engageAutomation/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
