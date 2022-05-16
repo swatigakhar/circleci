@@ -24,7 +24,7 @@ jobs:
           command: cd engageAutomation && npm install
       - run:
           name: Run Tests_engage (Linux + Master)
-          command: cd engageAutomation; npm test -- --reportdir=$(date +%d-%m-%Y-%H-%M-%S) --appType=$APP_TYPE --testEnv=$TEST_ENV --testExecFile=AcceptanceNew.json  --windowWidth=1600 --windowHeight=900 --browserCapability=desktop-chrome-1920 || true
+          command: cd engageAutomation; npm test -- --reportdir=$(date +%d-%m-%Y-%H-%M-%S) --appType=$APP_TYPE --testEnv=$TEST_ENV --testExecFile=AcceptanceNew.json  --windowWidth=1600 --windowHeight=900 --browserCapability=desktop-chrome-1366 || true
       - aws-s3/sync:
           arguments: |
           from: './engageAutomation/output/reports/'
