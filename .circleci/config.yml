@@ -9,7 +9,7 @@ orbs:
 jobs:
   AcceptanceTestLinux:
     docker:
-      - image: cimg/node:14.4
+      - image: cimg/node:16.15.0
     steps:
       - browser-tools/install-chrome
       - browser-tools/install-chromedriver
