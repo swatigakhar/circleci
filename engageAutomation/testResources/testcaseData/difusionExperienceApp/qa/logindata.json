@@ -3,7 +3,7 @@
         "login": {
             "user": {
                 "validStudent1": {
-                    "email": "hutudibrulli-3717@yopmail.com",
+                    "email": "hutudibrulli-3718@yopmail.com",
                     "password": "Compro@1234",
                     "role": "student",
                     "name": "hutudibrulli-3717 auto",
@@ -27,7 +27,7 @@
                     "email": "jijetoullozo-4043@yopmail.com",
                     "password": "Compro@1234",
                     "role": "student",
-                    "name": "etirrase-9139",
+                    "name": "QA Automation Student2",
                     "class": [],
                     "info": {}
                 },
@@ -301,6 +301,33 @@
                         {
                             "key": "v324-6vg7",
                             "name": "Class Assignment test"
+                        }
+                    ],
+                    "info": {}
+                },
+                "gradeBookStudent": {
+                    "email": "dev1_student100@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "student",
+                    "name": "dev1 student100",
+                    "class": [
+                        {
+                            "key": "TFbA-6AP7",
+                            "name": "Gradebook",
+                            "studentName1":"dev1 student100"
+                        }
+                    ],
+                    "info": {}
+                },
+                "writingPlayerTeacher": {
+                    "email": "writingPlayer_teacher@yopmail.com",
+                    "password": "Compro@1234",
+                    "role": "instructor",
+                    "name": "Teacher Writing Player",
+                    "class": [
+                        {
+                            "key": "4rvF-gRHj",
+                            "name": "class 15"
                         }
                     ],
                     "info": {}

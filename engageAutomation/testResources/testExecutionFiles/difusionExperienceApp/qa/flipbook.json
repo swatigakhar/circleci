@@ -30,7 +30,7 @@
             "testData": [
                {
                   "dataFile": "./testResources/testcaseData/difusionExperienceApp/qa/logindata.json",
-                  "jsonPath": "engage.login.user.validInstructorUser1"
+                  "jsonPath": "engage.login.user.flipbookUser"
                }
             ]
          },
@@ -141,7 +141,7 @@
             "testData": [
                {
                   "dataFile": "./testResources/testcaseData/difusionExperienceApp/qa/logindata.json",
-                  "jsonPath": "engage.login.user.validInstructorUser1"
+                  "jsonPath": "engage.login.user.flipbookUser"
                }
             ]
          },
@@ -313,7 +313,7 @@
             "testData": [
                {
                   "dataFile": "./testResources/testcaseData/difusionExperienceApp/qa/logindata.json",
-                  "jsonPath": "engage.login.user.validInstructorUser1"
+                  "jsonPath": "engage.login.user.flipbookUser"
                }
             ]
          },
@@ -502,7 +502,7 @@
       "After": []
    },
    "Suite4": {
-      "Name": "Use Case to click on TOC button and jump to new page in flipbook",
+      "Name": "Use Case to click on TOC button and jump to page in flipbook",
       "TestCaseRepo": [
          "./testResources/testcaseRepository/engageExperienceApp/EngageTCRepository.json"
       ],
@@ -532,7 +532,7 @@
             "testData": [
                {
                   "dataFile": "./testResources/testcaseData/difusionExperienceApp/qa/logindata.json",
-                  "jsonPath": "engage.login.user.validInstructorUser1"
+                  "jsonPath": "engage.login.user.flipbookUser"
                }
             ]
          },

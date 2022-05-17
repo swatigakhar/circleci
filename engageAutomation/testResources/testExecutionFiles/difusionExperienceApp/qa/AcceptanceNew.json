@@ -290,10 +290,7 @@
             "description": "",
             "testFile": "./engageAutomation/core/runner/launchUrl.js",
             "testData": []
-         }
-      ],
-      "BeforeEach": [],
-      "Test": [
+         },
          {
             "id": "ENG_LAND_TC_3",
             "description": "",
@@ -412,7 +409,10 @@
                   "jsonPath": "book.component[2].unit[1].section[0].activity[0]"
                }
             ]
-         },
+         }
+      ],
+      "BeforeEach": [],
+      "Test": [
          {
             "id": "ENG_PLAY_TC_1",
             "description": "",
@@ -508,7 +508,10 @@
                   "jsonPath": "book.component[2].unit[0].title"
                }
             ]
-         },
+         }
+      ],
+      "AfterEach": [],
+      "After": [
          {
             "id": "ENG_SHELL_TC_11",
             "description": "",
@@ -576,18 +579,13 @@
                   "jsonPath": "engage.login.user.acceptanceStudent"
                }
             ]
-         }
-         
-      ],
-      "AfterEach": [],
-      "After": [
+         },
          {
             "id": "ENG_SHELL_TC_9",
             "description": "",
             "testFile": "./test/engageExperienceApp/appShell.test.js",
             "testData": []
          }
-         
       ]
    }
 }
