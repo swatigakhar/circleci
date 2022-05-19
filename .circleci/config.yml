@@ -8,17 +8,20 @@ orbs:
 jobs:
   AcceptanceTestWindows:
     executor: win/default
-    docker:
-      - image: cimg/node:16.15.0
     steps:
       - run:
           name: Install Chrome
           command: |
             $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
       - run:
-          command: |
-            node --version
-          name: Check node version***
+          command: node --version
+          name: Check node version
+      -run:
+          name: Install node@16
+          command: nvm install v16.15.0; nvm alias default v16.15.0
+      - run:
+          command: node --version
+          name: Check node version
       - checkout
       - run:
           name: Install Packages
