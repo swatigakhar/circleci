@@ -16,7 +16,7 @@ jobs:
       - run:
           command: node --version
           name: Check node version
-      -run:
+      - run:
           name: Install node@16
           command: nvm install v16.15.0; nvm alias default v16.15.0
       - run:
