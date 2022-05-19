@@ -76,5 +76,8 @@
     "winston-loggly-bulk": "^3.1.0",
     "xmlhttprequest": "^1.8.0",
     "yargs": "^15.4.1"
+  },
+  "engines": {
+    "node":"^16.15.0"
   }
 }
