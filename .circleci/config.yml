@@ -8,17 +8,18 @@ orbs:
 jobs:
   AcceptanceTestWindows:
     docker:
-      - image: cimg/node:14.4
+      - image: cimg/node:16.15.0
     executor: win/default
     steps:
       - run:
           name: Install Chrome
           command: |
             $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
+      - run:
+          command: |
+            node --version
+          name: Check node version***
       - checkout
-      - node/install:
-          install-yarn: true
-          node-version: '16.15'
       - run:
           name: Install Packages
           command: cd engageAutomation; npm install
