@@ -14,14 +14,8 @@ jobs:
           command: |
             $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
       - run:
-          command: choco install nvm@1.1.9
-          name: choco install nvm
-      - run:
-          command: nvm version
-          name: nvm --version
-      - run:
           name: Install node@16
-          command: nvm install v16.15.0; nvm use v16.15.0
+          command: nvm install v16.13.2; nvm use v16.13.2
       - run:
           command: node --version
           name: Check updated node version
