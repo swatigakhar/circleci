@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "wdio run ./wdio.conf.js",
-    "landingFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='landingTest.json' --windowWidth=1600 --windowHeight=900 ",
+    "landingFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='landingTest.json' --windowWidth=1600 --windowHeight=900 --browserCapability=desktop-safari-1920",
     "loginFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='loginTest.json' --windowWidth=1600 --windowHeight=900  --browserCapability=applitools-chrome-1920 --visual=applitools",
     "basicFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='AcceptanceNew.json' --windowWidth=1600 --windowHeight=900",
     "appShellFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='appShellTest.json' --windowWidth=1600 --windowHeight=900",
@@ -72,6 +72,7 @@
     "wdio-chromedriver-service": "^7.3.2",
     "wdio-novus-visual-regression-service": "^1.2.5",
     "wdio-timeline-reporter": "^5.1.4",
+    "wdio-safaridriver-service": "^1.0.0",
     "winston": "^3.2.1",
     "winston-loggly-bulk": "^3.1.0",
     "xmlhttprequest": "^1.8.0",

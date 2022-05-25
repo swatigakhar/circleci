@@ -209,5 +209,18 @@
             "apiKey": "YgTpmv103jxt3HTzb0jJWyQLk3m3NQVFc8kUHuf1BOd2g110",
             "stitchMode": "Scroll"
         }
+    },
+    "desktop-safari-1920": {
+        "capabilities": [
+            {
+                "browserName": "safari"
+            }
+        ],
+        "resolution": "1920x1080",
+        "maximizeWindow": false,
+        "hostname": "localhost",
+        "portNumber": 4444,
+        "webServicePath": "/",
+        "webDriverService": "safaridriver"
     }
 }
