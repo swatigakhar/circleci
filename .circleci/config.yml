@@ -4,7 +4,7 @@ version: 2.1
 orbs:
   #win: circleci/windows@2.4.1
   aws-s3: circleci/aws-s3@3.0
-  macos: circleci/macos@2.1.0
+  macos: circleci/macos@2.2.0
 # Define a job to be invoked later in a workflow
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -18,7 +18,7 @@ jobs:
             #$Path = $TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
       - run:
           name: Install node@16
-          command: brew update; brew install node@16;
+          command: brew update; brew install node@16.13.2
       - run:
           command: node --version
           name: Check updated node version
@@ -26,6 +26,10 @@ jobs:
       - run:
           name: Install Packages
           command: cd engageAutomation; npm install
+      - run:
+          defaults write com.apple.Safari AllowRemoteAutomation 1
+      - run:
+          sudo safaridriver --enable
       - macos/add-safari-permissions
       - run:
           name: Run Tests_engage (MacOS + Safari Branch)
