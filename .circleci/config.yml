@@ -5,6 +5,7 @@ orbs:
   #win: circleci/windows@2.4.1
   aws-s3: circleci/aws-s3@3.0
   macos: circleci/macos@2.1.0
+  node: circleci/node@4.0.0
 # Define a job to be invoked later in a workflow
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -16,9 +17,11 @@ jobs:
           #name: Install Chrome
           #command: |
             #$Path = $TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
-      - run:
-          name: Install node@16
-          command: brew unlink node; brew install node@16; echo 'export PATH="/usr/local/opt/node@16/bin:$PATH"' >> /Users/distiller/.bash_profile; export LDFLAGS="-L/usr/local/opt/node@16/lib"; export CPPFLAGS="-I/usr/local/opt/node@16/include"
+      - node/install:
+        node-version: "16.13.2"
+      # - run:
+      #     name: Install node@16
+      #     command: brew unlink node; brew install node@16; echo 'export PATH="/usr/local/opt/node@16/bin:$PATH"' >> /Users/distiller/.bash_profile; export LDFLAGS="-L/usr/local/opt/node@16/lib"; export CPPFLAGS="-I/usr/local/opt/node@16/include"
       - run:
           command: node --version
           name: Check node version
