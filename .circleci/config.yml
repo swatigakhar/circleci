@@ -29,11 +29,11 @@ jobs:
       - run:
           name: Install Packages
           command: cd engageAutomation; npm install
-      #- run:
-          #defaults write com.apple.Safari AllowRemoteAutomation 1
+      - run:
+          defaults write com.apple.Safari AllowRemoteAutomation 1
       - run:
           sudo safaridriver --enable
-      - macos/add-safari-permissions
+      # - macos/add-safari-permissions
       - run:
           name: Run Tests_engage (MacOS + Safari Branch)
           command: cd engageAutomation; npm test -- --reportdir=$(date +%d-%m-%Y-%H-%M-%S) --appType=$APP_TYPE --testEnv=$TEST_ENV --testExecFile=AcceptanceNew.json  --windowWidth=1600 --windowHeight=900 --browserCapability=desktop-safari-1920 || true
