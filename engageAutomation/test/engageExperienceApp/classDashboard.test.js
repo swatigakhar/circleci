@@ -137,7 +137,7 @@ module.exports = {
 	//Validate that on clicking a Class card on the My Classes Page, Class Dashboard is launched for that class
 	ENG_INS_CLASS_TC_7: async function (testdata) {
 		sts = await classDashboardPage.click_ClassCard(testdata)
-		await assertion.assertEqual(sts, true, "Class Details page is not launched", sts.pageStatus)
+		await assertion.assertEqual(sts.trim(), true, "Class Details page is not launched", sts.pageStatus)
 		sts = await teacherViewClassPage.isInitialized();
 		await assertion.assertEqual(sts, true, "Class Deatails page is not launched" + (await JSON.stringify(sts.pageStatus)))
 

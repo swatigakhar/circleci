@@ -31,7 +31,7 @@ module.exports = {
     ENG_BOOK_TC_26: async function (testdata) {
         sts = await unitDetailPage.clickPreviousUnit();
         await assertion.assertEqual(sts.unitThumbnail, true, "Unit Thumbnail not displayed");
-        await assertion.assert(testdata.includes(sts.unitName), "Unit name mismatch");
+        await assertion.assert(testdata.includes(sts.unitName.trim()), "Unit name mismatch");
     },
 
     //Non-Anchor component - Validate that components are not displayed on View Unit page

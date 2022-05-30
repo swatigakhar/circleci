@@ -24,7 +24,7 @@ module.exports = {
 		if (sts.quesNumber == null) {
 			await assertion.assertEqual(sts.nextPageBtn, null, "nextPageBtn status mismatch");
 			await assertion.assertEqual(sts.prevPageBtn, null, "prevPageBtn status mismatch");
-			await assertion.assertEqual(sts.prevActivityBtn, testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
+			await assertion.assertEqual(sts.prevActivityBtn.trim(), testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
 			if (sts.closeBtn == null)
 				await assertion.assertEqual(sts.nextActivityBtn, testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
 			else
@@ -45,7 +45,7 @@ module.exports = {
 				await assertion.assertEqual(sts.prevPageBtn, "", "prevPageBtn status mismatch");
 				await assertion.assertEqual(sts.prevActivityBtn, null, "prevActivityBtn status mismatch");
 				if (sts.closeBtn == null)
-					await assertion.assertEqual(sts.nextActivityBtn, testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
+					await assertion.assertEqual(sts.nextActivityBtn.trim(), testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
 				else
 					await assertion.assertEqual(sts.closeBtn, testdata.closeBtn, "closeBtn status mismatch");
 			}
@@ -138,7 +138,7 @@ module.exports = {
 		if (sts.quesNumber == null) {
 			await assertion.assertEqual(sts.nextPageBtn, null, "nextPageBtn status mismatch");
 			await assertion.assertEqual(sts.prevPageBtn, null, "prevPageBtn status mismatch");
-			await assertion.assertEqual(sts.prevActivityBtn, testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
+			await assertion.assertEqual(sts.prevActivityBtn.trim(), testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
 			if (sts.closeBtn == null)
 				await assertion.assertEqual(sts.nextActivityBtn, testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
 			else
@@ -149,7 +149,7 @@ module.exports = {
 			if (q[0] == '1') {
 				await assertion.assertEqual(sts.nextPageBtn, "", "nextPageBtn status mismatch");
 				await assertion.assertEqual(sts.prevPageBtn, null, "prevPageBtn status mismatch");
-				await assertion.assertEqual(sts.prevActivityBtn, testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
+				await assertion.assertEqual(sts.prevActivityBtn.trim(), testdata.prevActivityBtn[0], "prevActivityBtn status mismatch");
 				await assertion.assertEqual(sts.nextActivityBtn, null, "nextActivityBtn status mismatch");
 				if (sts.closeBtn != null)
 					await assertion.assertEqual(sts.closeBtn, testdata.closeBtn, "closeBtn status mismatch");
@@ -159,7 +159,7 @@ module.exports = {
 				await assertion.assertEqual(sts.prevPageBtn, "", "prevPageBtn status mismatch");
 				await assertion.assertEqual(sts.prevActivityBtn, null, "prevActivityBtn status mismatch");
 				if (sts.closeBtn == null)
-					await assertion.assertEqual(sts.nextActivityBtn, testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
+					await assertion.assertEqual(sts.nextActivityBtn.trim(), testdata.nextActivityBtn[0], "nextActivityBtn status mismatch");
 				else
 					await assertion.assertEqual(sts.closeBtn, testdata.closeBtn, "closeBtn status mismatch");
 			}

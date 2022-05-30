@@ -169,7 +169,7 @@ module.exports = {
 		else {
 			for (var i = 0; i < res.length; i++) {
 				var findClassName = (await action.getText(this.className + i + "']")).split("\n");
-				if (className == findClassName[1]) {
+				if (className == findClassName[1] || findClassName[0].indexOf(className) > -1) {
 					arr[index] = i
 					index = index + 1;
 				}
