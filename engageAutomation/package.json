@@ -7,7 +7,7 @@
     "test": "wdio run ./wdio.conf.js",
     "landingFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='landingTest.json' --windowWidth=1600 --windowHeight=900 ",
     "loginFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='loginTest.json' --windowWidth=1600 --windowHeight=900  --browserCapability=applitools-chrome-1920 --visual=applitools",
-    "basicFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='AcceptanceNew.json' --windowWidth=1600 --windowHeight=900",
+    "basicFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='AcceptanceNew.json' --windowWidth=1600 --windowHeight=900 --browserCapability=desktop-safari-1920",
     "appShellFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='appShellTest.json' --windowWidth=1600 --windowHeight=900",
     "classIntructorFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=production --testExecFile='classDashboardTest.json' --windowWidth=1600 --windowHeight=900",
     "dashboardFeatureTest": "wdio run ./wdio.conf.js --appType=difusionExperienceApp --testEnv=qa --testExecFile='dashboardTest.json' --windowWidth=1600 --windowHeight=900",
